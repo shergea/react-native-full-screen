@@ -27,6 +27,16 @@ Install the npm package [`react-native-full-screen`](https://www.npmjs.com/packa
 npm install --save react-native-full-screen
 ```
 
+```
+# RN >= 0.60
+No action needed
+
+# RN < 0.60
+react-native link react-native-full-screen
+```
+### Manual installation
+
+
 In `android/settings.gradle`, remove the line `include ':app'` and add the following lines
 ```
 include ':react-native-full-screen'
